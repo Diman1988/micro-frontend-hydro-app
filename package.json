@@ -9,7 +9,8 @@
     "prepare": "husky install",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
-    "build:types": "tsc"
+    "build:types": "tsc",
+    "repo": "git clone https://github.com/Diman1988/hydro-charts.git ./external/angular && git clone https://github.com/nikitapn/nscalc.git ./external/react"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
